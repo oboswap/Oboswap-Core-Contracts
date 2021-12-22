@@ -1,15 +1,19 @@
 {
-  "name": "@qdexgo/qdex-eth-core",
-  "description": "🎛 Core contracts for the Oboswap protocol",
-  "version": "0.1.0",
+  "name": "@oboswap/obo-swap-core",
+  "description": "🎛 Core contracts for the oboswap protocol",
+  "version": "1.0.0",
   "homepage": "",
   "repository": {
     "type": "git",
-    "url": "https://github.com/qdexgo/qdex-eth-core"
+    "url": "https://github.com/oboswap/obo-swap-core.git"
   },
-  "publishConfig": {
-    "registry": "http://registry.npmjs.org"
-  },
+  "keywords": [
+    "oboswap",
+    "ethereum",
+    "binance",
+    "polygon",
+    "core"
+  ],
   "files": [
     "contracts",
     "build"
@@ -27,7 +31,6 @@
     "prettier": "^1.19.1",
     "rimraf": "^3.0.0",
     "solc": "0.5.16",
-    "truffle-plugin-verify": "^0.4.0",
     "ts-node": "^8.5.4",
     "typescript": "^3.7.3"
   },
@@ -41,10 +44,5 @@
     "test": "mocha",
     "prepublishOnly": "yarn test"
   },
-  "license": "GPL-3.0-or-later",
-  "dependencies": {
-    "truffle-hdwallet-provider": "^1.0.17",
-    "truffle": "^5.1.41",
-    "truffle-flattener": "^1.4.4"
-  }
+  "license": "GPL-3.0-or-later"
 }
